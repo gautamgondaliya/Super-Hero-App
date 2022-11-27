@@ -23,7 +23,7 @@ body{
     color: white;
 }
 .search-button {
-   
+   margin:20px;
     height: 35px;
     width: 83px;
     border-radius: 58px;
@@ -31,6 +31,13 @@ body{
     color: black;
     background-color: white;
 }
+@media screen and (max-width: 768px){
+   .mosthadingcenter{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+   }
+
 .search-button:hover{
     height: 35px;
     width: 83px;
